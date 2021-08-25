@@ -1,0 +1,28 @@
+extern boolean MathimatikosIplogismos(integer &AA);
+extern void Praksi(integer A, integer B);
+
+void Program()
+integer i, d, e;
+boolean f;
+
+begin
+
+	d = 1567;
+	e = d * 133 + d % 2;
+	Praksi(d, e);
+
+	f = MathimatikosIplogismos(d);
+	
+	if(!f == true) i = 10;
+	else {f = false; return;}
+
+	if((!f==false) i = 11;
+	else f = true;	
+
+	f = true||false;
+	
+end
+
+-|ERROR IN LINE 19|-
+
+! CODE NOT SYNTACTICALLY CORRECT ! #ERRORS:1
